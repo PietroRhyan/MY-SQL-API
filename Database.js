@@ -1,12 +1,12 @@
-const {Client} = require('pg')
+const mysql = require('mysql')
 
-const client = new Client({
-    host:   "pgsql.upsaude.net.br",
-    user:   "upsaude18",
-    port:       5432,
-    password:   "up1022",
-    database: "upsaude18"
+var pool = mysql.createPool({
+    host:   "mysql.upsaude.net.br",
+    user:   "upsaude13",
+    port:       3306,
+    password:   "Jr123456",
+    database: "upsaude13"
 })
 
 
-module.exports = client
+exports.pool = pool;
