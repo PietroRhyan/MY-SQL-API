@@ -1,0 +1,33 @@
+{
+  "name": "myreposit",
+  "version": "1.0.0",
+  "description": "API para Conexão de banco de dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoJuni0r/MyReposit.git"
+  },
+  "keywords": [
+    "API",
+    "DataBase"
+  ],
+  "author": "Fernando Oliveira Andrade Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoJuni0r/MyReposit/issues"
+  },
+  "homepage": "https://github.com/FernandoJuni0r/MyReposit#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
